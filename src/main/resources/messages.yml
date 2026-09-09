@@ -1,0 +1,7 @@
+prefix: "<gray>[</gray><gold>SupplyDrops</gold><gray>]</gray> "
+no-permission: "%prefix%<red>No permission.</red>"
+drop-created: "%prefix%<green>Drop %drop_id% created at %x% %y% %z%.</green>"
+drop-landed: "%prefix%<yellow>Drop %drop_id% has landed!</yellow>"
+drop-looted: "%prefix%<green>%player% looted drop %drop_id%.</green>"
+drop-destroyed: "%prefix%<red>Drop %drop_id% was destroyed.</red>"
+reload-success: "%prefix%<green>Reloaded.</green>"

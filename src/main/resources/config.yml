@@ -1,0 +1,9 @@
+config-version: 1
+drop:
+  start-height: 100
+  fall-duration-ticks: 100
+  ground-duration-seconds: 300
+  particles: true
+  sounds: true
+announcements:
+  enabled: true

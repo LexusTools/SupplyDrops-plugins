@@ -1,0 +1,18 @@
+name: SupplyDrops
+version: '${1}'
+main: com.portfolio.supplydrops.SupplyDropsPlugin
+api-version: '1.21'
+description: Professional supply drop system
+authors: [Vixor]
+commands:
+  ads:
+    description: Admin supply drops
+    usage: /ads [create|list|info|cancel|remove|reload]
+    aliases: [supplydrop, drop]
+permissions:
+  supplydrops.admin:
+    description: Manage supply drops
+    default: op
+  supplydrops.loot:
+    description: Loot supply drops
+    default: true
